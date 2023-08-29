@@ -1,0 +1,21 @@
+package com.kh.variable;
+
+public class VariableSample {
+	public static void main(String[] args) {
+		String name;
+		name = "ƒÌ∆Œ";
+		
+		int hour = 15;
+        double score = 90.5;
+        char grade = 'A';
+        
+        System.out.println("æ»≥Á«œººø‰." + name + " ¿‘¥œ¥Ÿ.  ø¿¥√  " + hour + " ø° πËº€ µÀ¥œ¥Ÿ.");
+		
+		
+		
+		
+		
+		
+	}
+
+}

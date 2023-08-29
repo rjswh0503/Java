@@ -1,0 +1,48 @@
+package com.kh.variable;
+/**/
+
+
+
+public class Variable {
+	public static void main(String[] args) {
+		// 1. 변수의 이름은 영문자, 숫자, 언더스코어, 달러($)로 구성할 수 있다.
+		
+		// 2. 변수의 이름은 숫자로 시작할 수 없다.
+		//int abc- = 3; //언더스코어와 달러만 사용할 수 있다.
+		
+		// 3. 변수 이름 사이에는 공백을 포함할 수 없다.
+		//int a b c = 1; //언어의 규칙으로 띄어쓰기는 무언가 새로 시작할 떄 사용하기 때문에 사용하지 않는다.
+		
+		// 4. 자바에서 미리 예약한 언어는 변수이름으로 사용하지 못한다.
+		//int int= 1;
+		
+		
+		
+		//실수형 (소수점이 있는 숫자 : float, double)
+		
+		float  pie1 = 3.14123123213123f; //float은 f나 대문자F를 작성해 준다.
+		double pie2 = 3.14123123213123;
+		System.out.print("float  : ");
+		System.out.println(pie1);
+		System.out.print("double : ");
+		System.out.println(pie2);
+		
+		
+		// byte : 는 -128 ~ 127 까지 사용 가능
+		// byte bt = -129; // int로 변경하거나 값을 byte + byte로 넣어줘야 
+		byte bt = 127; // -129와 양수 128 이상부터 출력이 되지 않는 것 확인
+		System.out.println(bt);
+		// short = - 32,768 ~ 32,767 까지 사용가능
+		// short shrt = -32769; //-32,769와 32,768 이후 출력되지 않는 
+		short shrt = 32767;
+		System.out.println(shrt);
+		
+		//int  -2,147,483,648 ~ 2,147,483,647 까지 허용 가능
+		int nt = -2147483648;
+		System.out.println(nt);
+		
+		
+		
+	}
+
+}
