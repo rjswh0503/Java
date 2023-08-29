@@ -28,9 +28,11 @@ public class ScannerSample {
 	    //내 취미와 내가 좋아하는 음식과 내 주소 1개만 출력하기
 	    
 	    Scanner sc = new Scanner(System.in);
+	    
+	
 	   
 	    System.out.print("당신의 취미를 입력해 주세요 : ");
-	    String hobby = sc.next();
+	    String hobby  = sc.next();
 	    System.out.println("당신의 취미는 " + hobby + " 입니다.");
 	    System.out.print("당신이 좋아하는 음식을 입력해 주세요 : ");
 	    String food  = sc.next();
