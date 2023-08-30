@@ -18,7 +18,7 @@ public class VariablePractice1 {
 		age = sc.nextInt();
 		System.out.print("키를 입력하세요(cm) : ");
 		height = sc.nextDouble();
-		System.out.println("키" + height + "인" + age + "살 남자" + name +"님 반갑습니다.");
+		System.out.println("키" + height + " 인 " + age + "살 남자 " + name +"님 반갑습니다.");
 		
 	}
 
