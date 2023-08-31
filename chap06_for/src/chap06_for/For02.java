@@ -32,14 +32,15 @@ public class For02 {
 	}
 	
 	*/
+		
 		System.out.print("첫번째 숫자를 입력하세요. : ");
-		                  //(2)
+		                  
 		int num3 = sc.nextInt();
 		System.out.print("두번째 숫자를 입력하세요. : ");
-		                   //(4)
+		                   
 		int num4 = sc.nextInt();
 		
-		int result = 0;    //(4)
+		int result = 0;    
 		for(int i  = 1; i <= num4; i++) {
 			
 			
@@ -49,6 +50,7 @@ public class For02 {
 		
 		}
 		 		
+		
 		
 		
 

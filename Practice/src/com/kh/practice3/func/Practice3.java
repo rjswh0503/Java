@@ -17,20 +17,13 @@ public class Practice3 {
 		boolean score = true;
 		int num = kor + math + eng;
 		double dNum = num;
-		if(dNum <= 60) {
-			if(num >= 60) {
-				System.out.println("±¹¾î :" + kor);
+		
+			
 				
 				
 			}
 		   
-			
-			
-		}
-		
-				
-		
+
 
 	}
 
-}
