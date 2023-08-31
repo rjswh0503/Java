@@ -13,6 +13,8 @@ public class VariablePractice4 {
 		 System.out.println("첫 번째 문자 : " + str.charAt(0) );
 		 System.out.println("두 번째 문자 : " + str.charAt(1) );
 		 System.out.println("세 번째 문자 : " + str.charAt(2) );
+		 System.out.println("네 번째 문자 : " + str.charAt(3) );
+		 System.out.println("다섯 번째 문자 : " + str.charAt(4) );
 		
 		
 	}

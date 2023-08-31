@@ -56,11 +56,7 @@ public class IfExam {
 			System.out.println("°¡À»");
 		}
 		
-		
-		
-		
-		
-		
+	
 
 	}
 

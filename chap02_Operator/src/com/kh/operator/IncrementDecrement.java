@@ -18,14 +18,14 @@ public class IncrementDecrement {
 	
 		 */
 		
-		int val;
+		int val,val2;
 		int num1 = 10;
 		val = ++num1; //num의 값이 1 증가한 후 val 변수에 대입을 하기 때문에 11이 대입
 		System.out.println(val);
 		
-		val = --num1;
+		val2 = --num1;
 		//num의 값이 1 감소한 후 val 변수에 대입 
-		System.out.println(val);
+		System.out.println(val2);
 		
 		
 		
