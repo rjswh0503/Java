@@ -1,6 +1,6 @@
 package chap06_for;
 
-public class for01 {
+public class For01 {
 
 	public static void main(String[] args) {
 		/*
