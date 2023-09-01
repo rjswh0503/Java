@@ -1,5 +1,5 @@
 package com.kh.switchsample;
-
+    
 public class SwitchSample {
 
 	public static void main(String[] args) {
