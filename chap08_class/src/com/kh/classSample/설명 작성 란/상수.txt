@@ -1,0 +1,29 @@
+상수(constant)
+변하지 않는 값을 나타내는 변수
+값을 상수로 선언하면 프로그램 내에서 값을 
+여러번 사용할 때 유용하고 값이 변경되지 않도록 보장
+
+사용 예제
+
+	예약어 변수명 =변수값;
+	final int a = 1;
+static	final int b = 1;
+	static은 변수나 함수를 메모리에 할당하는 방법
+			프로그램이 실행이 되는 순간에 메모리를 할당하겠다.
+		
+		
+		
+			
+private final int c = 1; // 더 이상 a의 값을 바꾸지 못하게 잠궈둠
+		public static final int a = 1;
+		static final int b = 1;
+		
+		
+		System.out.println("a의 값 : " + a);
+		System.out.println("b의 값 : " + b);
+		
+		a = 2;
+		System.out.println("a의 값 : " +a);
+
+	
+	

@@ -19,10 +19,11 @@ public class Circle {
 		
 	}
 	public void getAreaOfCIRCLE() {
-		System.out.println(" ");
+		double area = dNum * Num * Num;
+		System.out.println("area : " + area);	
 	}
 	public void getSizeOfCircle() {
-		System.out.println("원의 반지름 : " + Num + dNum );
+		System.out.println("원의 반지름 : " +Num );
 	}
 	
 	
