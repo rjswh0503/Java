@@ -1,0 +1,74 @@
+super.과 super()
+	 Java에서 생성자가 호출될 때, 첫 번째 작업으로 super 자동으로 호출됨
+	 하지만 적어주는 것이 좋음
+	 생성자 체인 : 클래스 계증구조에서 상속을 통해 연결된 여러 생성자들 간의 호출 순서를 관리하는 것 
+	 
+
+	1.super.
+			부모 클래스이 변수나 메서드에 접근하기 위해 사용
+			
+	2.super()
+			부모 클래스의 생성자를 호출하기 위해 사용
+			서브 클래스의 생성자에서 첫 번째 줄에 호출되어야 함
+			
+		
+예제코드 
+	class Parent{
+		String name;
+		Parent(){
+		//기본 생성자
+		}
+		Parent(String name){
+			this.name = name;
+			//자식 문자열 파라미터 생성자
+		
+		
+		}
+		void show(){
+			System.out.println("출력 매서드");
+			
+	
+		}
+	
+	}
+	
+	
+	
+	
+class Child extends Parent {
+	Child(){
+		super(); //부모 클래스의 기본 생성자 호출
+		System.out.println("자식 클래스의 기본 생성자");
+		
+	
+	}
+	void display(){
+		super.show(); //부모 클래스의 show 매서드 호출
+	
+	
+	
+	}
+	
+	
+}
+
+
+public Main() {
+	public static void main(String[] args {
+		Child child1 = new Child();
+		Child child2 = new Child();
+		
+		child2.display();
+	
+	
+	}
+
+
+}
+
+
+
+
+
+
+
