@@ -10,10 +10,12 @@ public class Practice9 {
 		
 		
 		
-		System.out.print("9 이하의 숫자를 입력하세요: ");
+		System.out.print(" 숫자를 입력하세요 : ");
 		int num = sc.nextInt();
-		
+		System.out.println("==== " + num +"단 ====");
 		for(int i = 1; i<9; i++ ) {
+			
+			
 			
 		}
 		

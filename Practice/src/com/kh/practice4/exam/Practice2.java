@@ -9,11 +9,20 @@ public class Practice2 {
 		System.out.print("1이상의 숫자를 입력하세요. : ");
 		int num = sc.nextInt();
 		
-		if(num > 0) {
-			for(int i = 1; i <= 8; i++) {
-				System.out.println(i +"");
+		if(num > 1) {
+			for(int i = 1; i <= num; i++) {
+				System.out.println(i);
+				
+				
+				
 				
 			}
+			 	boolean isTrue = true;
+			 	
+			
+			
+			
+			
 		}else {
 			System.out.println("1 이상의 숫자를 입력해주세요.");
 			
