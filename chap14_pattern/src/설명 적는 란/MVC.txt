@@ -1,0 +1,4 @@
+MVC 패턴(Model-View-Controller)
+	1.Model = 데이터와 비지니스 로직 처리
+	2.View = 사용자 인터페이스
+	3.Controller = 모델과 뷰 사이의 상호작용
