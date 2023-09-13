@@ -1,0 +1,36 @@
+StringTokenizer 와 Replace
+
+공통점 : 둘 다 문자열을 처리하는 Java에서 사용되는 기능
+*파싱 : 데이터를 분해 분석하여 원하는 형태로 조립하고 다시 빼내는 것
+
+
+
+
+StringTokenizer
+	문자열을 특정 구분자를 기준으로 토큰으로 분리하는데 사용
+	입력 문자열을 파싱하거나 특정 형식의 문자열을 분해하는데 유용
+	CSV 파일(엑셀파일)에서 데이터를 읽을 때나 특정 형식의 문자열을 파싱할 떄 사용할 수 있음
+	
+	예제코드 : 
+		String input = "apple,banana,grape"
+		StringTokenizer t = new StringTokenizer(input, ",");
+		// ',' 구분자를 사용하여 문자열을 분리하고 각각의 토근을 출력
+		
+		
+		
+Replace
+	메서드는 문자열 내에서 특정 문자열 또는 문자를 다른 문자열 또는 문자로 교체하는데 사용
+	문자열에서 특정 패턴을 찾아서 변경할 때 유용
+	예를들어 문자열 내의 모든 공백을 다른 문자로 바꿀 때 사용할 수 있음
+	
+	예제코드 :
+		String input = "Hello, world!";
+		String reInput = input.replace(" ","-");
+		System.out.println(reInput);
+		
+		
+
+
+
+
+	
