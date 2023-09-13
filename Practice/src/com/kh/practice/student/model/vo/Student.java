@@ -53,7 +53,7 @@ public class Student {
 		
 	}
 	
-	public String inform() {
+	
 		
 	}
 		
@@ -65,4 +65,4 @@ public class Student {
 	
 	
 
-}
+
