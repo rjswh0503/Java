@@ -29,7 +29,7 @@ public class GameMain  {
 			
 			isGameOver = true;
 			
-			gameLoop.get
+			
 			
 			
 		} catch (IOException e) {
