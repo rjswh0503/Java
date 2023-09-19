@@ -1,0 +1,71 @@
+스택(Stack) 큐(Queue) 덱(Deque)
+ 	데이터를 저장하고 관리하는 자료구조
+ 	데이터를 다양한 방식으로 저장하고 접근할 수 있도록 설계되어 있음
+ 	다양한 알고리즘과 문제 해결 
+ 	
+
+ 스택(Stack) :		   //마지막 입장 첫 번째 나감 
+ 		데이터를 후임선출(LIFO Last-In-first-Out)의 원칙에 따라 저장하는 자료구조
+ 		가장 최근에 삽입한 데이터가 가장 먼저 제거
+ 		push(item) : 스택에 데이터 추가
+ 		pop()	   : 스택의 맨 위(가장 최근)의 데이터를 제거하고 반환
+ 		peek()     : 스택의 맨 위(가장 최근)의 데이터를 반환
+ 		
+ 		
+ 		
+ 		
+ 큐(Queue) :
+ 		데이터를 선입선출(First-In-First-Out)의 원칙에 따라 저장하고 관리하는 자료구조
+ 		데이터가 큐에 추가되면 가장 먼저 추가된 데이터가 가장 먼저 제거되는 방식
+ 		
+ 		offer(item) : item 추가
+ 		poll() : 큐에서 요소를 제거하고 반환 제거한 요소는 삭제하고 출력
+ 		peek() : 큐의 front 요소를 확인하고 반환 요소 제거 안됨 
+ 		size() : 큐의 크기 확인
+ 		
+ 		
+ 		
+ DeQueue (Double-Ended-queue)  :
+ 		양쪽 끝에서 요소를 추가하거나 제거할 수 있는 자료구조
+ 		인터페이스 이기 떄문에 LinkedList ArrayDequeue 사용
+ 		Deque 큐와 스택의 기능을 모두 수행할 수 있음
+ 		
+ 
+		addFrist(), offerFirst() : Dequeue 맨 앞에 요소 추가
+		addList(), offerLast()   : Dequeue 맨 뒤에 요소 추가
+	  removeFirst(), pollFrist() : Dequeue 맨 앞에서 요소를 제거하고 반환
+		removeLast(), pollLast() : Dequeue 맨 뒤에서 요소를 제거하고 반환
+		getFirst(), peekFirst()  : Dequeue 맨 앞 요소를 가져옴
+		getLast(), peekLast()    : Dequeue 맨 뒤 요소를 가져옴
+ 		
+ 	
+ 		예)
+ 		addFirst()   : 만약 요소를 추가할 공간이 부족하거나 제약 조건에 어긋나는 경우
+ 						예외 발생 반환 없음 
+ 				
+ 		offerFirst() : 요소를 추가하려고 할 때 예외를 발생시키지 않음
+ 						요소 추가가 성공하면 true 반환
+ 						요소 추가가 실패하면 false 반환
+ 						
+ 		removeLast() : Dequeue 가 비어있는 경우 예외발생
+ 						
+ 					   비어있을 때 예외를 발생시키므로 항상 요소 반환
+ 		pollLast()   : 비어있을 경우 null 반환 예외처리를 하지 않고 사용할 수 있음
+ 						
+ 						
+ 		
+ 		getFirst()   : 비어있을 경우 예외 발생 
+ 						요소를 가져올 때 예외를 처리하고자 할 때 사용 
+ 	
+ 		peekFirst()  : 비어있을 경우 null 반환 	 		
+ 						예외를 처리하지 않고 가져오기가 실패할 경우 대비 
+ 						
+ 						
+ 						
+ 						
+ 									
+ 		
+ 		
+ 		
+ 		
+  		 		
