@@ -5,7 +5,34 @@ import com.kh.GraphMain.Graph;
 public class PracticeGraph {
 
 	public static void main(String[] args) {
-		int ver = 9;
+		PracticeGraph ph = new PracticeGraph();
+		ph.BFSPracticeMain();
+		//ph.DFSPracticeMain();
+
+	}
+	
+	public void BFSPracticeMain() {
+		
+		BFSGraph p = new BFSGraph(7);
+		
+		
+		p.addEdge(0, 1);
+		p.addEdge(0, 2);
+		p.addEdge(1, 3);
+		p.addEdge(1, 4);
+		p.addEdge(2, 5);
+		p.addEdge(2, 6);
+		
+		System.out.println("BFS Å½»ö °á°ú : ");
+		
+		p.BFS(0);
+			
+		
+	}
+	
+	public void DFSPracticeMain() {
+		
+			int ver = 9;
 		
 		Graph grp = new Graph(ver);
 		
@@ -26,7 +53,14 @@ public class PracticeGraph {
 		
 		grp.DFS(0);
 		
-
+		
+		
+		
 	}
+	
+	
+	
+	
+	
 
 }
