@@ -32,7 +32,7 @@ super.°ú super()
 	
 	}
 	
-	
+	   
 	
 	
 class Child extends Parent {

@@ -6,3 +6,17 @@ Collection
 		Set
 		Map
 		
+	메소드 
+	   sort() : 오름차순 
+	reverse() : 내림차순
+	 remove() : 지정된 요소를 컬렉션에서 제거
+		add() : 요소를 컬렉션에 추가
+	isEmpty() : 컬렉션이 비어 있는지 여부 확인
+	 addAll() : 모든 요소들을 현재 컬렉션에 추가
+   contains() : 컬렉션이 지정된 요소를 포함하고 있는지 여부
+   	  clear() : 모든 요소 제거
+    toArray() : 컬렉션의 요소를 배열로 반환
+  iterator()  : 컬렉션 요소에 반복하는데 사용되는 반복자를 반환
+  
+ 	
+		

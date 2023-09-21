@@ -1,12 +1,12 @@
 package com.kh.inheritance.animal;
 
 public class Animal { //동물 클래스 정의
-	private String name;
+	private String name; // 객체(=인스턴스)에 할당된  변수 
 	
 	
 	
 	public Animal(String name) {
-		this.name = name;
+		this.name = name; // this 키워드를 이용해서 인스턴스 변수에 값을 할당 
 		
 	}
 	

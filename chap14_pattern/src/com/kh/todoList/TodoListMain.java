@@ -8,7 +8,7 @@ public class TodoListMain {
 		
 		System.out.println(tdmodel);
 		tdView.displayTodoList();
-		String text
+		
 		
 
 	}

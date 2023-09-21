@@ -24,6 +24,7 @@ class MyClass {
 	//두 번째 생성자
 	MyClass(int value){
 		this.myField = value;
+	//인스턴스 변수
 		
 	}
 	void printValue() {

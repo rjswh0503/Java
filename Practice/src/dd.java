@@ -1,19 +1,23 @@
 import java.util.Scanner;
 
 public class dd {
-
-	 public static void main(String[] args) {
-	        Scanner sc = new Scanner(System.in);
-	        System.out.print("입력 :");
-	        int num = sc.nextInt();
-	        System.out.print("입력 : ");
-	        int num1 = sc.nextInt();
-	        
-	        
-	        System.out.println("a" + "="+num + "," +  "b"+"="+ num1);
-	    
-	    
+	public int sum(int a, int b) {
+		return a+b;
+		
 	}
-	       
+	public static void main(String[] args) {
+		int a = 3;
+		int b = 4;
+		
+		dd mytest = new dd();
+		int c = mytest.sum(a, b);
+		System.out.println(c);
+		
+	}
 
+
+	
+	
+	
 }
+

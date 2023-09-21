@@ -15,9 +15,6 @@ public class CalculatorRun extends Calculator {
 		
 		
 		
-		
-		
-		/*
 		Calculator cal = new Calculator();
 		int result1 = cal.add();
 		int result2 = cal.substruck();
@@ -27,7 +24,7 @@ public class CalculatorRun extends Calculator {
 		System.out.println("»©±â : " + result2);
 		System.out.println("°öÇÏ±â : " + result3);
 		System.out.println("³ª´©±â : " + result4);
-		*/
+		
 		
 	}
 

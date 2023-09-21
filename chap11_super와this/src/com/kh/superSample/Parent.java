@@ -19,7 +19,7 @@ public class Parent {
 	}
 	
 	Parent(String name){
-		this.name = name;
+		this.name = name; //name을 인스턴스 변수로 나타낸다. 
 		System.out.println("부모 클래스의 문자열 파라미터 생성자 입니다. ");
 		System.out.println("이름 : " +name);
 	}
