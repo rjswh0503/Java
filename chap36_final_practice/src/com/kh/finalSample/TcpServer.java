@@ -22,8 +22,8 @@ public class TcpServer {
 		printstream.print("Hi Client");
 		printstream.flush();
 		
-		
 		client.close();
+		
 		
 		
 		}
